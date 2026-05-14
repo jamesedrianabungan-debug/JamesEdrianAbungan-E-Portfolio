@@ -290,10 +290,7 @@
     position: relative;
     z-index: 1;
     box-shadow: none;
-
-    /* Ito importante */
     background: transparent;
-    mix-blend-mode: multiply;
 }
         /* Section Styles */
         section {
