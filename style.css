@@ -281,17 +281,16 @@
     to { opacity: 0.6; transform: scale(1.05); }
 }
 
-.profile-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-    border: none;
-    position: relative;
-    z-index: 1;
-    box-shadow: none;
-    background: transparent;
-}
+  .profile-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid var(--surface-color);
+            position: relative;
+            z-index: 1;
+            box-shadow: var(--shadow);
+        } 
         /* Section Styles */
         section {
             padding: 6rem 5%;
